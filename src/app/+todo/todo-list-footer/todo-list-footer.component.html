@@ -1,0 +1,3 @@
+<footer class="footer" *ngIf="todos.length > 1" appTopShadow [lengthList]="todos.length">
+  <span class="todo-count"><strong>{{todos.length}}</strong> {{todos.length == 1 ? 'item' : 'items'}} left</span>
+</footer>

@@ -1,0 +1,5 @@
+<header class="header">
+  <h1>Todo list</h1>
+  <input #newItem class="new-todo" placeholder="add argument?" autofocus=""
+         (keyup.enter)="newItem.value.length > 0 ? addTodo(newItem.value) : ''">
+</header>

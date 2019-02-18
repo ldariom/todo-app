@@ -1,0 +1,7 @@
+<div class="view">
+  <mat-icon matPrefix (click)="toggleTodoState(todo)" [ngStyle]="{ 'color': todo.state ? '#BBB': '#46a75b' }" class="material-icons md-36">{{todo.state ? 'toggle_on' : 'toggle_off'}}</mat-icon>
+  <label>{{todo.title}}</label>
+  <button class="destroy" (click)="removeTodo(todo)"></button>
+</div>
+
+
