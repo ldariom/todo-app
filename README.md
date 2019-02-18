@@ -1,7 +1,7 @@
 # Todo App Angular
 
 
-This repo contains the code of an all list made in angular 7, also uses [json-server](https://github.com/typicode/json-server) and [faker.js](https://github.com/Marak/faker.js) for the test data provider.
+This repo contains the code of an todo list made in angular 7, also uses [json-server](https://github.com/typicode/json-server) and [faker.js](https://github.com/Marak/faker.js) for the test data provider.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
